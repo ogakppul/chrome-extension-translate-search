@@ -1,3 +1,15 @@
+# 빌드 방법
+nodejs 21이상 설치
+
+```bash
+npm install -g webpack
+npm install webpack --save-dev
+npm run build
+```
+(빌드 방법은 https://github.com/ogakppul/chrome-extension-typescript-starter를 참고)
+빌드가 완료되면 dist 폴더에 저장됨.
+chrome에서 개발자 모드를 키고 dist 폴더를 로드하면 끝
+
 # Translate and Search (Chrome Extension)
 
 ![GitHub](https://img.shields.io/github/license/34j/chrome-extension-translate-search)

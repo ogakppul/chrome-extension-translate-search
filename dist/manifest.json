@@ -1,0 +1,32 @@
+{
+  "manifest_version": 3,
+
+  "name": "Translate and Search",
+  "description": "Translate and then search.",
+  "homepage_url": "https://github.com/34j/chrome-extension-translate-search",
+  "author": "34j",
+  "version": "0.0.1",
+  "icons": {
+    "16": "icon_normal.png",
+    "48": "icon_normal.png",
+    "128": "icon_normal.png",
+    "256": "icon_normal.png"
+  },
+
+  "action": {
+    "default_icon": "icon_error.png"
+  },
+
+  "background": {
+    "service_worker": "js/background.js"
+  },
+
+  "permissions": [
+    "storage",
+    "webNavigation"
+  ],
+
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
